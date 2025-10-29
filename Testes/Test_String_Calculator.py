@@ -1,4 +1,4 @@
 from src.String_Calculator import String_Calculator
-def test():
+def test_string_Calculator():
      pass
 

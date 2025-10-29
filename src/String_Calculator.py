@@ -1,2 +1,2 @@
-def String_Calculator():
-      pass
+def String_Calculator() :
+    pass
