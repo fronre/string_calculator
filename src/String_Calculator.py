@@ -1,4 +1,9 @@
-def String_Calculator(string_numbers: str) -> int:
-    if string_numbers == "":
+def String_Calculator(number_string: str) -> int:
+    if not number_string:
         return 0
-    return int(string_numbers)
+
+    if "," in number_string:
+        parts = number_string.split(",")
+        return sum(int(p) for p in parts)
+
+    return int(number_string)
