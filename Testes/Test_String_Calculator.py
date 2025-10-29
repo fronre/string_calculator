@@ -19,6 +19,7 @@ from src.String_Calculator import String_Calculator
     ("99,1", 100),
     ("500,500", 1000),
     ("999,1", 1000),
+
 ])
 def test_String_numbers(string_input, expected):
     actual_result = String_Calculator(string_input)
